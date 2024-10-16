@@ -1,0 +1,279 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #000000ee;
+   
+}
+
+.top {
+    background-color: transparent;
+    color: white;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+    border-bottom: 1px rgba(255, 255, 255, 0.272) solid;
+
+}
+
+.nav ul {
+    display: flex;
+    list-style: none;
+    gap: 15px;
+}
+
+.logo {
+    font-size: 30px;
+}
+
+.t {
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    padding-top: 50PX;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.left {
+    width: 40%;
+
+}
+
+.left h1 ,.two h1{
+    font-size: 35px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+span {
+    letter-spacing: 2px;
+}
+
+.left span,
+.left p {
+    color: rgba(255, 255, 255, 0.427);
+}
+
+.im {
+    background: radial-gradient(rgba(255, 255, 255, 0.217), transparent);
+    border-radius: 50px;
+    width: auto;
+    height: auto;
+}
+
+.but ,.butt{
+    margin-top: 10px;
+    background-color: orange;
+    width: 130px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+
+}
+
+.sec {
+
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   padding: 100px;
+    height: auto;
+    gap: 60px;
+}
+
+.one {
+    display: flex;
+    gap:100px;
+   justify-content: center;
+    width: 100%;
+    
+}
+
+.box {
+    width: 20%;
+    height: auto;
+    background-color: rgba(22, 21, 21, 0.178);
+    display: flex;
+   align-items: center;
+    padding: 10px;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 20px;
+}
+.box h1{
+    font-size: 20px;
+}
+.box p{
+    font-size: 15px;
+}
+
+.box img{
+    width: 100px;
+    height: 100px;
+
+}
+.two{
+    width: 80%;
+    display: flex;
+gap:30px;
+    align-items: center;
+padding-inline: 20px;
+    background-color: rgb(195, 129, 7);
+    height: 550px;
+    color: white;
+    border-radius: 10px;
+}
+.l{
+    width:70%;
+    align-self: end;
+}
+.r{
+    display: flex;
+    flex-direction: column;
+}
+.butt{
+    background-color: black;
+}
+.three{
+    display: flex;
+    align-items: center;
+    background: linear-gradient(to right,rgb(211, 209, 209),rgba(0, 0, 0, 0.308));
+    width: 80%;
+    height:170px;
+    border-radius: 15px;
+   
+}
+.ll{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+text-align: center;
+    gap: 15px;
+}
+.b{
+    width: 100px;
+    height: 35px;
+    background-color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    box-shadow: 2px 4px 4px 0px;
+    padding: 0 3px 0 3px;
+}
+.rr img{
+    width: auto;
+    height: auto;
+    
+}
+.four{
+    width: 80%;
+    display: flex;
+    gap: 60px;
+    height: 250px;
+}
+.e{
+    width: 50%;
+}
+.cc{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.e{
+    background: url(img/e.png) no-repeat;
+    background-size: cover;
+}
+.five{
+    width: 80%;
+    display: flex;
+    height: 450px;
+    gap: 40px;
+    
+}
+.pp{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+#q{
+    color: orange;
+}
+.oo{
+    background: url(img/re.png) no-repeat;
+    background-size: cover;
+
+}
+.oo{
+    width: 60%;
+    height: inherit;
+}
+.five h1 {
+    margin-bottom: 30px;
+
+}
+.six{
+   width: 80%;
+    height: 400px;
+
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    background-color: transparent;padding: 60px;
+    color: white;
+    
+}
+.mm{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.nn{
+    display: flex;
+    gap: 100px;
+    flex-direction: column;
+    
+}
+.nn ul {
+    display: flex;
+    list-style: none;
+    gap: 15px;
+}
+  .gg{
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 10px;
+  }
